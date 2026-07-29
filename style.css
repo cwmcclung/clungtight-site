@@ -12,26 +12,28 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 30px 20px;
+    min-height: 100vh;
     box-sizing: border-box;
+    padding: 40px 20px;
 }
 
 .logo-container {
+    width: 100%;
     display: flex;
     justify-content: center;
-    width: 100%;
 }
 
 .logo-container img {
-    width: 60vw;
+    width: 60%;
     max-width: 600px;
     height: auto;
 }
 
 .content {
-    margin-top: 40px;
     display: flex;
     justify-content: center;
+    width: 100%;
+    margin-top: 40px;
 }
 
 .links {
@@ -72,16 +74,16 @@ body {
 @media (max-width: 600px) {
 
     body {
-        padding: 20px 15px;
+        padding: 25px 15px;
     }
 
     .logo-container img {
-        width: 80vw;
-        max-width: 320px;
+        width: 85%;
+        max-width: 350px;
     }
 
     .content {
-        margin-top: 30px;
+        margin-top: 40px;
     }
 
     .links {
