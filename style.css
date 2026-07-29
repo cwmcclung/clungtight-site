@@ -20,21 +20,26 @@ body {
     justify-content: center;
     align-items: flex-end;
     min-height: 100vh;
-    padding-bottom: 50px;
+    padding: 0 20px 50px;
     box-sizing: border-box;
 }
 
 .links {
     display: flex;
     flex-direction: column;
-    gap: 30px;
     align-items: center;
+    gap: 25px;
+    width: 100%;
 }
 
 .social-button {
-    display: inline-flex;
+    display: flex;
     align-items: center;
     justify-content: center;
+
+    width: fit-content;
+    min-height: 60px;
+    box-sizing: border-box;
 
     padding: 14px 40px;
     border: 6px solid #2e2365;
@@ -59,15 +64,16 @@ body {
 
 @media (max-width: 600px) {
     .content {
-        padding-bottom: 35px;
+        padding-bottom: 30px;
     }
 
     .links {
-        gap: 25px;
+        gap: 20px;
     }
 
     .social-button {
-        padding: 12px 35px;
-        font-size: 1.7rem;
+        min-height: 55px;
+        padding: 10px 30px;
+        font-size: 1.6rem;
     }
 }
