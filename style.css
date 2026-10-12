@@ -127,7 +127,7 @@ body {
     color: #a8d151;
 }
 
-/* Make the Oct. 9th Tickets button fit its text */
+/* Let the music video button fit its text */
 .links .social-button:first-child {
     min-width: 0;
 }
@@ -193,6 +193,7 @@ footer {
 
     .links {
         gap: 25px;
+        max-width: 100%;
     }
 
     .social-button {
@@ -202,9 +203,13 @@ footer {
         font-size: 1.8rem;
     }
 
-    /* Keep the ticket button sized to its text on mobile */
+    /* Keep the music video button readable on mobile */
     .links .social-button:first-child {
         min-width: 0;
+        max-width: 100%;
+        white-space: normal;
+        text-align: center;
+        line-height: 1.2;
     }
 
     footer {
